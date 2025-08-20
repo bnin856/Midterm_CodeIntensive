@@ -35,6 +35,9 @@ function taoThePhim(phim) {
 			<div class="phim-phu"><span class="chip">${phim.theloai}</span></div>
 		</div>
 	`;
+	the.addEventListener('click', () => {
+		location.href = `detail.html?id=${phim.id}`;
+	});
 	return the;
 }
 
@@ -42,7 +45,6 @@ function doLuoi(danhSach) {
 	luoi.innerHTML = '';
 	danhSach.forEach(p => {
 		const the = taoThePhim(p);
-		the.addEventListener('click', () => capNhatHero(p));
 		luoi.appendChild(the);
 	});
 }
