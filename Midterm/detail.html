@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anonime - Chi tiết</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="dau-trang">
+		<div class="khung-nav">
+			<div class="logo">Anonime</div>
+			<nav class="menu">
+				<a href="index.html" class="muc">Home</a>
+				<a href="#" class="muc">List anime</a>
+			</nav>
+			<div class="o-tim-wrap">
+				<input class="o-tim" placeholder="Search anime or movie" />
+			</div>
+		</div>
+	</header>
+
+	<main class="noi-dung">
+		<h2 id="ct-tieu-de" class="td-muc"></h2>
+		<div class="ct-grid">
+			<section class="ct-left">
+				<div class="video">
+					<iframe id="ct-video" src="" title="player" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="ct-thongtin">
+					<div class="ct-poster">
+						<img id="ct-poster" alt="poster" />
+					</div>
+					<ul class="ct-meta">
+						<li><strong>Type:</strong> <span id="ct-type"></span></li>
+						<li><strong>Status:</strong> <span id="ct-status"></span></li>
+						<li><strong>Studios:</strong> <span id="ct-studio"></span></li>
+						<li><strong>Duration:</strong> <span id="ct-duration"></span></li>
+						<li><strong>Genres:</strong> <span id="ct-genres"></span></li>
+					</ul>
+				</div>
+				<section class="ct-synopsis">
+					<h3>Synopsis</h3>
+					<p id="ct-sum"></p>
+				</section>
+			</section>
+			<aside class="ct-right">
+				<h3 class="td-muc">Popular Anime</h3>
+				<div id="ct-popular" class="popular-grid"></div>
+			</aside>
+		</div>
+	</main>
+
+	<script type="module" src="detail.js"></script>
+</body>
+</html> 

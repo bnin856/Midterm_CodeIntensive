@@ -1,0 +1,29 @@
+{
+  "name": "javascript-exercises-lesson1",
+  "version": "1.0.0",
+  "description": "30 bài tập JavaScript cơ bản - Functions và ES6 Features",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx http-server . -p 8080 -o",
+    "test": "node index.js",
+    "build": "echo 'No build step required for this project'"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "functions",
+    "exercises",
+    "learning",
+    "vietnamese"
+  ],
+  "author": "bnin856",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

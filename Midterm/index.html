@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anonime - Xem Anime</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="dau-trang">
+		<div class="khung-nav">
+			<div class="logo">Anonime</div>
+			<nav class="menu">
+				<a href="#" class="muc">Home</a>
+				<a href="#" class="muc">List anime</a>
+			</nav>
+			<div class="o-tim-wrap">
+				<input id="o-tim" class="o-tim" type="text" placeholder="Search anime or movie" autocomplete="off" />
+			</div>
+		</div>
+	</header>
+
+	<main class="noi-dung">
+		<section class="kham-pha">
+			<h2 class="td-muc">Explore</h2>
+			<p class="phu-de">What are you gonna watch today ?</p>
+
+			<div class="hero">
+				<img id="hero-anh" class="hero-anh" src="" alt="" />
+				<div class="hero-phu"></div>
+				<div class="hero-nd">
+					<h3 id="hero-tieu-de" class="hero-tieu-de"></h3>
+					<p id="hero-mo-ta" class="hero-mo-ta"></p>
+					<a id="hero-xem" class="btn-xem" href="#">View detail</a>
+				</div>
+			</div>
+		</section>
+        
+
+		<section class="phat-hanh">
+			<h2 class="td-muc">New Release</h2>
+			<div id="luoi-phim" class="luoi-phim" aria-live="polite"></div>
+		</section>
+	</main>
+
+	<script type="module" src="app.js"></script>
+</body>
+</html> 
